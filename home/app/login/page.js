@@ -7,7 +7,7 @@ const Login = () => {
         
       </style>
         this is a Login page
-    </div>
+``    </div>
   )
 }
 
