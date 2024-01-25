@@ -7,8 +7,6 @@ const Login = () => {
         
       </style>
         this is a Login page
-
-        <button> Login </button>
     </div>
   )
 }
