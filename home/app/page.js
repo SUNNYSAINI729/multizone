@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
           <h1> Home Page </h1>
-          <a href={"/blog"} target='_blank'> Blog Page </a>
+          <a href={"/blog/my-blog-detail"} target='_blank'> Blog Page </a>
           <a href={"/au-en"} target='_blank'> Country Lang </a>
       </div>
 

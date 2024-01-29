@@ -8,10 +8,10 @@ const nextConfig = {
                     source: '/:path*',
                     destination: `/:path*`,
                 },
-                {
-                    source: '/blog',
-                    destination: `${SDS_URL}/blog`,
-                },
+                // {
+                //     source: '/blog',
+                //     destination: `${SDS_URL}/blog`,
+                // },
                 {
                     source: '/blog/:path*',
                     destination: `${SDS_URL}/blog/:path*`,

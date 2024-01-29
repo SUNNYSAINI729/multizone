@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/blog"
-}
+  basePath: "/blog",
+//   async redirects() {
+//     return [
+//       {
+//         source: "/l",
+//         destination: "/l/[...slug]", // Replace with your desired destination
+//         permanent: true,
+//       },
+//     ];
+//   },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
